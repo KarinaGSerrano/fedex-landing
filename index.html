@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Landing Fedex</title>
+    <link rel="icon" href="/img/favicon-2.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.php?sec=home"
+          ><img
+            class="d-none-style logo-nav"
+            src="/img/logo-3.png"
+            alt="logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-list navbar-toggler-icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active a-color" href="#">Nuestro Compromiso</a>
+            </li>
+
+            <li class="nav-item">
+              <div class="d-flex align-items-center contacto-style ms-3">
+                <a class="nav-link a-color" href="#">Contactanos</a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-chat-fill color-white me-2"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"
+                  />
+                </svg>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <div class="img-bg">
+      <div class="container p-relative padding-top div-1">
+        <div class="escalera p-absolute d-flex flex-column">
+          <h1 class="escalera-1">¡Inicia el recorrido!</h1>
+          <span class="escalera-2 span-h1-1 color-orange"
+            >¡Inicia el recorrido!</span
+          >
+          <span class="escalera-3 span-h1-2 color-orange"
+            >¡Inicia el recorrido!</span
+          >
+        </div>
+
+        <div class="text-center padding-top">
+          <img src="/img/portada-fedex2.png" class="img-fluid img-portada" />
+        </div>
+      </div>
+
+      <!---------------------------- CAROUSEL --------------------------------- -->
+
+      <div class="container div-2">
+        <div class="carousel-style">
+          <div class="row align-items-center">
+            <div class="col-8">
+              <div
+                id="carouselExampleRide"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="/img/conducir-aventura-todoterreno-traves-bosques-prados-generados-ia.jpg"
+                        class="d-block w-100 img-carousel"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/img/conducir-aventura-todoterreno-traves-bosques-prados-generados-ia.jpg"
+                        class="d-block w-100 img-carousel"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/sol-pone-largo-viaje-industria-camionera-generado-ia.jpg"
+                        class="d-block w-100 img-carousel"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleRide"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleRide"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="col-4 escalera">
+              <h2 class="escalera-1">Nuestro compromiso</h2>
+              <p class="escalera-2">
+                En <strong>FedEx</strong> tenemos una amplia gama de
+                transportes, y lo dedicamos plenamente para que tu paquete
+                llegue a destino rápido y seguro.
+              </p>
+              <p class="escalera-3 color-orange p-style-2">
+                ¡Tu paquete está en camino!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ................................................................... -->
+
+      <div class="container div-3">
+        <div class="row align-items-center">
+          <div class="col-5 escalera">
+            <h2 class="escalera-1">Valoramos tu confianza</h2>
+            <p class="escalera-2">
+              Porque sabemos que cada paquete cuenta una historia.
+            </p>
+            <p class="escalera-3 color-orange p-style-2">
+              ¡Casi hemos llegado!
+            </p>
+          </div>
+
+          <div class="col-2">
+            <img
+              src="/img/ventana-fedex3.png"
+              alt=""
+              class="img-fluid shadow-img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ................................................................... -->
+
+    <div class="position-relative">
+      <div class="container">
+        <div class="escalera d-flex flex-column text-end p-size msj-style">
+          <span class="escalera-1"> Los medios son nuestro compromiso,</span>
+          <span class="escalera-2 color-orange">El fin del camino</span>
+          <span class="escalera-3 color-orange">es nuestro objetivo.</span>
+        </div>
+      </div>
+      <img src="/img/cliente-fedex4.png" alt=".." class="img-fluid" />
+    </div>
+
+    <!-- ................................................................... -->
+
+    <footer class="footer">
+      <div class="container text-center">
+        <p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-emoji-smile color-smile"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+            />
+            <path
+              d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"
+            />
+          </svg>
+          2023 | EDP - Serrano Karina
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
