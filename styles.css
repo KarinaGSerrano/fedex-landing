@@ -6,7 +6,7 @@ body {
 }
 
 .img-bg {
-  background: url('/img/map-bg.svg');
+  background: url('./img/map-bg.svg');
   background-repeat: no-repeat;
   background-position: 10rem 22rem;
 }
@@ -219,7 +219,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   .img-bg {
-    background-image: url('/img/map-bg.svg');
+    background-image: url('./img/map-bg.svg');
     background-repeat: no-repeat;
     background-position: 3rem 22rem;
     background-size: 50rem 80rem;
@@ -234,7 +234,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   .img-bg {
-    background-image: url('/img/map-bg.svg');
+    background-image: url('./img/map-bg.svg');
     background-repeat: no-repeat;
     background-position: 3rem 22rem;
     background-size: 40rem 80rem;
